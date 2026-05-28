@@ -106,7 +106,7 @@
 
 
   /* 5) Chat background and footer strip */
-  --chat-bg-image: url("./bc-test24.jpg");
+  --chat-bg-image: url("https://trixtecheu.github.io/zamek-blatna/images/bc-test24.jpg");
   --chat-bg-size: cover;
   --chat-bg-repeat: no-repeat;
   --chat-bg-position: center center;
