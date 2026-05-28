@@ -32,7 +32,7 @@
   --icon-sound-color-hover: #FFFFFF;
 
   /* Refresh Icon */
-  --icon-refresh-url: url("https://trixtecheu.github.io/LITOVEL/images/icons/icon-refresh.png");
+  --icon-refresh-url: url("https://trixtecheu.github.io/LITOVEL/images/icons/icon-refresh.svg");
   --icon-refresh-size: 38px;
   --icon-refresh-opacity: 0.8;
   --icon-refresh-opacity-hover: 1;
@@ -270,7 +270,7 @@
   --card-btn-icon-move: 0px;
 
   /* Carousel Navigation */
-  --carousel-icon-url: url("./icon-arrow-carousel25.png");
+  --carousel-icon-url: url("https://trixtecheu.github.io/LITOVEL/images/icons/icon-arrow-carousel.svg");
   --carousel-rotate-left: 0deg;
   --carousel-rotate-right: 0deg;
   --carousel-btn-size: 42px;
@@ -285,11 +285,11 @@
   --carousel-btn-bg-hover: #000;
   --carousel-btn-border-hover: 2px solid #000;
   --carousel-btn-scale-hover: 1.08;
-  --carousel-icon-url-hover: url("./icon-arrow-carousel25.png");
+  --carousel-icon-url-hover: url("https://trixtecheu.github.io/LITOVEL/images/icons/icon-arrow-carousel.svg");
 
 
   /* 11) AI badge and scroll button */
-  --ai-icon-image: url('./icon-ai-sparkles21.png');
+  --ai-icon-image: url('https://trixtecheu.github.io/zamek-blatna/images/icons/icon-ai-sparkles21.png');
   --ai-icon-width: 24px;
   --ai-icon-height: 24px;
   --ai-label-bg: #000;
@@ -306,7 +306,7 @@
 
   /* Scroll Button */
   --scroll-btn-bg-color: #000;
-  --scroll-btn-icon: url("./icon-scroll-down12.png");
+  --scroll-btn-icon: url("https://trixtecheu.github.io/zamek-blatna/images/icons/icon-scroll-down12.png");
   --scroll-btn-size: 16px 16px;
   --scroll-btn-border: 2px solid #000;
 
@@ -489,18 +489,5 @@
   --chat-mobile-radius: 0;
   --chat-mobile-inner-radius: 0;
   --chat-mobile-shadow: none;
-
---icon-url-calendar: url("./cal-hover.png");
---icon-url-calendar-hover: url("./cal22.png");
---icon-url-bell: url("./bell-hover.png");
---icon-url-bell-hover: url("./bell12.png");
-
---js-icon-display: block;
---js-icon-size: 26px;
---js-icon-scale: 1.2;
---js-icon-gap: 0px;
---js-btn-padding-left: 0px;
---js-btn-padding-right: 0px;
---js-btn-padding-top: 0px;
 }
 
