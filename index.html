@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zámek Blatná</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      background-image: url('https://trixtecheu.github.io/zamek-blatna/images/blatna-bg.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    (function(d, t) {
+      const v = d.createElement(t);
+      const s = d.getElementsByTagName(t)[0];
+
+      v.onload = function() {
+        try {
+          setTimeout(function() {
+            window.voiceflow.chat.load({
+              verify: {
+                projectID: '6a15eeec241a010e88133259',
+                versionID: 'production'
+              },
+              url: 'https://general-runtime.voiceflow.com',
+              render: { mode: 'overlay' },
+              allowDangerousHTML: true,
+              assistant: {
+                stylesheet: 'https://trixtecheu.github.io/zamek-blatna/styles-blatna.css'
+              }
+            }).then(() => {
+              window.dispatchEvent(new CustomEvent('vf-ready'));
+            });
+          }, 0);
+        } catch (error) {
+          console.error('Error during initialization:', error);
+        }
+      };
+
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs';
+      v.type = 'text/javascript';
+      s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+</body>
+</html>
